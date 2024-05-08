@@ -20,10 +20,10 @@ function LogWrite {
 Connect-ExchangeOnline 
 
 # Alle Shared Mailboxes auflisten
-#$sharedMailboxes = Get-Mailbox -ResultSize Unlimited -RecipientTypeDetails SharedMailbox
+$sharedMailboxes = Get-Mailbox -ResultSize Unlimited -RecipientTypeDetails SharedMailbox
 
 # Test Felix - Nimmt nur Sharedmailboxen deren Alias Adresse mit "test" beginnt.
-$sharedMailboxes = Get-Mailbox -ResultSize Unlimited -RecipientTypeDetails SharedMailbox -Filter { Alias -like 'test*' }
+#$sharedMailboxes = Get-Mailbox -ResultSize Unlimited -RecipientTypeDetails SharedMailbox -Filter { Alias -like 'test*' }
 
 
 
