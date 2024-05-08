@@ -16,6 +16,9 @@ function LogWrite {
     Write-Host $logString
 }
 
+# Verbinden Sie sich mit Ihrem Exchange Online
+Connect-ExchangeOnline 
+
 # Alle Shared Mailboxes auflisten
 #$sharedMailboxes = Get-Mailbox -ResultSize Unlimited -RecipientTypeDetails SharedMailbox
 
@@ -51,3 +54,5 @@ foreach ($mailbox in $sharedMailboxes) {
 }
 
 LogWrite "Skript abgeschlossen."
+
+Disconnect-ExchangeOnline
