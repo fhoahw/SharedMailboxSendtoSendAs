@@ -16,7 +16,7 @@ Dieses PowerShell-Skript wurde entwickelt, um Berechtigungen für geteilte Postf
 ## Nutzung
 1. Öffnen Sie PowerShell als Administrator.
 2. Navigieren Sie zum Verzeichnis, in dem das Skript gespeichert ist.
-3. Führen Sie das Skript aus mit dem Befehl: `.\NameDesSkripts.ps1`
+3. Führen Sie das Skript aus mit dem Befehl: `.\application-v3.ps1`
 4. Das Skript wird automatisch eine Verbindung zu Exchange Online herstellen und nach Ihrer Zustimmung verlangen. Geben Sie Ihre Anmeldedaten ein, wenn Sie dazu aufgefordert werden.
 5. Überwachen Sie die Ausführung und die Logausgaben auf der Konsole und in der Log-Datei `C:\ExchangeLogs\SharedMailboxPermissions.log`.
 
